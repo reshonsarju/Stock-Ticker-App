@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Stock Ticker App</title>
+</head>
+<body>
+    <form class="stock-form">
+        <label for="ticker">Search  for a Ticker</label>
+        <input type="text" id="ticker" name="ticker" />
+        <button type="submit">Display Ticker</button>
+      </form>
+      <section class="ticker-display">
+        <h1>Ticker Display</h1>
+        <div class="details">ticker symbol: <span class="symbol"></span></div>
+        <div class="details">current date (GMT): <span class="date"></span></div>
+        <div class="details">open price: <span class="open-price"></span></div>
+        <div class="details">current close price: <span class="close-price"></span></div>
+        <div class="details">high: <span class="high"></span></div>
+        <div class="details">low: <span class="low"></span></div>
+      </section>
+  
+
+      <script src="js/main.js"></script>
+</body>
+</html>
